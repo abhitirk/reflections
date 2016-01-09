@@ -1,3 +1,7 @@
 Q: What happens when you initialize a repository? Why do you need to do it?
 
 When ‘git init’ is used to initialize a repository, it transforms the current folder into a git repository and creates the git metadata in the .git folder that may be used while performing git commands.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area comprises of files that are ready to be committed, which have to be selectively determined by the user. It offers the benefits of determining a selection of files that must be included within a specific commit - those which comprise of significant logical changes rather than including all files at once, which may cause redundancy.
