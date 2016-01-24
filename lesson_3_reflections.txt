@@ -1,0 +1,5 @@
+Q: When would you want to use a remote repository rather than keeping all your work local?
+
+A: Once I'm confident that all important work is done on local so I can push it up to the remote repo, so that: 
+  1) Others can view, examine and suggest edits to my work.
+  2) My files would be secure on a cloud server, regardless of bad stuff happening on my local machine.
