@@ -5,3 +5,23 @@ When ‘git init’ is used to initialize a repository, it transforms the curren
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area comprises of files that are ready to be committed, which have to be selectively determined by the user. It offers the benefits of determining a selection of files that must be included within a specific commit - those which comprise of significant logical changes rather than including all files at once, which may cause redundancy.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+By comparing changes made in files in the staging area to those in either the current repository or working directory, it becomes convenient for the user to determine whether the changes are, in fact what he or she would want to make before making a commit. 
+
+I would use git diff to first determine what changes exist between the working directory and the staging area. If I’m content with the logical change, I would then compare it with that of the files in the current repository (i.e, the latest commit) to check whether making a commit would produce the required logical change.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Supposing that one or more new directions arise as far as development of the project goes. Branches can be used to keep track of the project’s history as to where exactly the current repository branched out from. 
+
+Q: How do the diagrams help you visualize the branch structure?
+
+They provide a clear representation of a branch’s ancestral hierarchy, hence making it easier to determine reachable and unreachable branches, the history of commits and where exactly branching occurs in the repository’s history. Probably a few more things not mentioned here, but I’d rather stop here than scratch my head.
+
+Q: What is the result of merging two branches together? 
+
+Q: Why do we represent it in the diagram the way we do?
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
