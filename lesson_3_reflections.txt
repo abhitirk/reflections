@@ -7,3 +7,7 @@ A: Once I'm confident that all important work is done on local so I can push it 
 Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 I would prefer to pull manually as it would allow me to have the freedom to determine which pull or push would be incur significant logical changes in either the remote or local repository.
+
+Q: This is a test question.
+
+AThis is a test ans.
