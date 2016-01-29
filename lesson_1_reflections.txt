@@ -29,4 +29,4 @@ Knowing that it is very much possible to revert to an older version of the code/
 
 Q:Now that you have your workspace set up, what do you want to try using Git for?
 
-For my programming assignments, projects (school and Udacity and others)!!! Very good, sir.
+For my programming assignments, projects (school and Udacity and others)!!! Very good, sir. For sure, sir.
